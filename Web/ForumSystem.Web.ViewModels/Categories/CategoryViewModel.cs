@@ -1,0 +1,24 @@
+﻿namespace ForumSystem.Web.ViewModels.Categories
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    using ForumSystem.Data.Models;
+    using ForumSystem.Services.Mapping;
+
+    public class CategoryViewModel : IMapFrom<Category>
+    {
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+
+        public string Description { get; set; }
+
+        public string ImageUrl { get; set; }
+
+        public IEnumerable<PostInCategoryViewModel> Posts { get; set; }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qe+UHEM21lRx3hgE9bzFSEq7wDw1zWIPphE9hmIBbrDo/2rW0ZJqZo0SdyfV8i4eS0tMbKIOmy+WsV3Oz5JPUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emil.hristov\\OneDrive - Tiebreak Solutions\\Stuff\\coding\\ASP.NET\\Project_Forum\\ASP.NET-Core\\ForumSystem\\Services\\ForumSystem.Services\\ForumSystem.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emil.hristov\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Emil.hristov\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}
