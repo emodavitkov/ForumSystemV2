@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ForumSystem.Data.Common.Models;
-
-namespace ForumSystem.Data.Models
+﻿namespace ForumSystem.Data.Models
 {
+    using ForumSystem.Data.Common.Models;
+
     public class Comment : BaseDeletableModel<int>
     {
         public int PostId { get; set; }

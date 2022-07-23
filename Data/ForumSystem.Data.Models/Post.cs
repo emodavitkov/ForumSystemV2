@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ForumSystem.Data.Common.Models;
-
-namespace ForumSystem.Data.Models
+﻿namespace ForumSystem.Data.Models
 {
+    using System.Collections.Generic;
+
+    using ForumSystem.Data.Common.Models;
+
     public class Post : BaseDeletableModel<int>
     {
         public Post()
@@ -18,6 +15,7 @@ namespace ForumSystem.Data.Models
 
         public string Content { get; set; }
 
+        // TODO:Required!
         public string UserId { get; set; }
 
         public virtual ApplicationUser User { get; set; }
