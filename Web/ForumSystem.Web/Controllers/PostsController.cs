@@ -28,8 +28,13 @@
 
         public IActionResult ById(int id)
         {
-            //TODO: read the post
-            return this.View();
+            var postViewModel = this.postsService.GetById<PostViewModel>(id);
+            if (postViewModel == null)
+            {
+                return this.NotFound();
+            }
+
+            return this.View(postViewModel);
         }
 
 

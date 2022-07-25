@@ -678,3 +678,6 @@ C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project
 C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project_Forum\ASP.NET-Core\ForumSystem\Tests\ForumSystem.Web.Tests\obj\Debug\net6.0\ForumSystem.Web.Tests.pdb
 C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project_Forum\ASP.NET-Core\ForumSystem\Tests\ForumSystem.Web.Tests\obj\Debug\net6.0\ForumSystem.Web.Tests.genruntimeconfig.cache
 C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project_Forum\ASP.NET-Core\ForumSystem\Tests\ForumSystem.Web.Tests\obj\Debug\net6.0\ref\ForumSystem.Web.Tests.dll
+C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project_Forum\ASP.NET-Core\ForumSystem\Tests\ForumSystem.Web.Tests\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project_Forum\ASP.NET-Core\ForumSystem\Tests\ForumSystem.Web.Tests\bin\Debug\net6.0\AngleSharp.Css.dll
+C:\Users\Emil.hristov\OneDrive - Tiebreak Solutions\Stuff\coding\ASP.NET\Project_Forum\ASP.NET-Core\ForumSystem\Tests\ForumSystem.Web.Tests\bin\Debug\net6.0\HtmlSanitizer.dll
