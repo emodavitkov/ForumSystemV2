@@ -1,4 +1,6 @@
-﻿namespace ForumSystem.Web.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+
+namespace ForumSystem.Web.Controllers
 {
     using System.Threading.Tasks;
 
@@ -22,6 +24,7 @@
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Create(CreateCommentInputModel input)
         {
             var parentId =
