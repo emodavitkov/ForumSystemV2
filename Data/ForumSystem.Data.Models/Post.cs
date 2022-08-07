@@ -1,8 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace ForumSystem.Data.Models
+﻿namespace ForumSystem.Data.Models
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
     using ForumSystem.Data.Common.Models;
 

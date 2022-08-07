@@ -33,8 +33,11 @@
 
         public T GetByName<T>(string name)
         {
-           var category = this.categoriesRepository.All().Where(x => x.Name == name)
-                .To<T>().FirstOrDefault();
+           var category = this.categoriesRepository.All()
+               .Where(x => x.Name.Replace(" ", "-") == name.Replace(" ", "-"))
+
+               // .Where(x => x.Name == name)
+               .To<T>().FirstOrDefault();
 
            return category;
         }

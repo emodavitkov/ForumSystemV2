@@ -1,25 +1,25 @@
 ﻿namespace ForumSystem.Web.Controllers
 {
     using System.Diagnostics;
-    using System.Linq;
 
-    using ForumSystem.Data;
-    using ForumSystem.Data.Common.Repositories;
-    using ForumSystem.Data.Models;
     using ForumSystem.Services.Data;
-    using ForumSystem.Services.Mapping;
     using ForumSystem.Web.ViewModels;
     using ForumSystem.Web.ViewModels.Home;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
 
     public class HomeController : BaseController
     {
         //private readonly IDeletableEntityRepository<Category> categoriesRepository;
         private readonly ICategoriesService categoriesService;
+        private readonly ILogger<HomeController> logger;
 
-        public HomeController(ICategoriesService categoriesService)
+        public HomeController(
+            ICategoriesService categoriesService,
+            ILogger<HomeController> logger)
         {
             this.categoriesService = categoriesService;
+            this.logger = logger;
         }
 
 
@@ -39,6 +39,7 @@
 
         public IActionResult Index()
         {
+            this.logger.LogDebug(this.HttpContext.Request.ContentType);
             var viewModel = new IndexViewModel();
             var categories = this.categoriesService.GetAll<IndexCategoryViewModel>();
             viewModel.Categories = categories;
